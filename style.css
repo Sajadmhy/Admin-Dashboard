@@ -26,9 +26,16 @@
     justify-items: center;
 }
 
+.header-1-1 , .header-1-2 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
 input {
     width: 400px;
     height: 20px;
+    border-radius: 10px;
 }
 
 .header-2 {
@@ -46,6 +53,7 @@ button {
     border-radius: 15px;
     width: 100px;
     height: 30px;
+    border-style: none;
 }
 
 .title-1 , .title-2 , .title-3 , .projects , .right-side-bottom , .right-side-top {
@@ -104,6 +112,7 @@ button {
 .logo , .home , .profile , .messages , .history , .tasks , .communities , .settings , .privacy , .support{
     display: flex;
     align-items: center;
+    gap: 20px;
 }
 
 .side-item-2 {
